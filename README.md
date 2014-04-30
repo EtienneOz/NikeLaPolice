@@ -28,7 +28,7 @@ Si une lettre est manquante, la remplacer par un svg dont l'attribut 'd' de la b
 Chaque svg ne doit comporter qu'une balise  &lt;path&gt; comprenant un attribut 'd' contenant l'ensemble des points. Ils doivent aussi être inversés verticalement et renommés de 1.svg à 26.svg. Enfin, compresser dans un .zip l'ensemble des svg (pas le dossier).
 À partir de fichiers images (ici tiff), il est possible d'automatiser le processus via le terminal (sous macOS ou Linux) :<br/>
 Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <a href="http://autotrace.sourceforge.net/">Autotrace</a> puis dans le terminal, taper :<br/>
-<pre>
+	<pre>
 	# 1 -> aller dans le dossier 		
 	  cd chemin/vers/le/dossier
 	# 2 -> flip les images
@@ -58,7 +58,7 @@ Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <
 	   done
 	# 5 -> Créer un zip : 
 	  zip svg.zip *.svg 
- </pre><br/>
+ 	</pre><br/>
 Utiliser ensuite le formulaire de index.php<br/>
 Une version en ligne est disponible à l'adresse <a href="http://etienneozeray.fr/svg2ttf" target="_blank">http://etienneozeray.fr/svg2ttf</a><br/>
 
