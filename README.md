@@ -27,7 +27,7 @@ Le dossier de svg doit comporter, dans l'ordre, les lettres suivantes :<br/>
 	'$', ':', '.', '/' <br/>
 Si une lettre est manquante, la remplacer par un svg dont l'attribut 'd' de la balise &lt;path&gt; est vide.
 Chaque svg ne doit comporter qu'une balise  &lt;path&gt; comprenant un attribut 'd' contenant l'ensemble des points. Ils doivent aussi être inversés verticalement et renommés de 1.svg à 26.svg. Enfin, compresser dans un .zip l'ensemble des svg (pas le dossier).
-À partir de fichiers images (ici tiff), il est possible d'automatiser le processus via le terminal (sous macOS ou Linux) :<br/>
+À partir de fichiers tiff, il est possible d'automatiser le processus via le terminal (sous macOS ou Linux) :<br/>
 Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <a href="http://autotrace.sourceforge.net/">Autotrace</a> puis dans le terminal, taper :<br/>
 	<pre>
 	# 1 -> aller dans le dossier 		
