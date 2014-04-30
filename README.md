@@ -58,16 +58,20 @@ Installer <a href="http://imagemagick.org/" target="_blank">ImageMagick</a> et <
 	   done
 	# 5 -> Créer un zip : 
 	  zip svg.zip *.svg 
- 	</pre><br/>
-Utiliser ensuite le formulaire de index.php<br/>
-Une version en ligne est disponible à l'adresse <a href="http://etienneozeray.fr/svg2ttf" target="_blank">http://etienneozeray.fr/svg2ttf</a><br/>
+ 	</pre><br/><br/>
+
+
+3 --> Utiliser ensuite le formulaire de index.php<br/>
+Une version en ligne est disponible à l'adresse <a href="http://etienneozeray.fr/svg2ttf" target="_blank">http://etienneozeray.fr/svg2ttf</a><br/><br/>
+
+4 --> (optionnel) Les fichiers ttf pouvant peser très lourds, utiliser le script python Simplify de FontForge pour supprimer les points vectoriels en trop.
 
 
 To do :
 =======
 • Inverser et centrer les glyphes, voir screenshot 3. (une solution temporaire est utilisée en inversant les svg en amont) ;<br/>
-• Empécher de nommer la fonte avec un nom existant (pour l'archivage) ;<br/>
-• Messages d'erreur si mauvaise manip ;<br/>
+• Empecher de nommer la fonte avec un nom existant (pour l'archivage) ;<br/>
+• Se passer de l'API parfois defectueuse en utilisant les scripts python de FontForge ;<br/>
 • Prendre en charge les autres formats de compression ;<br/>
 • Prendre en charge les alphabets incomplets ;<br/>
 • Prendre en charge les fontes à chasse variable ;<br/>
