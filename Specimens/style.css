@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+
+/* ----------- FONTES ----------- */
+
+@font-face{
+	font-family: "LuxiReg";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/LuxiMono.ttf");
+}
+
+/*  ----------- */
+
+@font-face{
+	font-family: "carac14";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/carac14.ttf");
+}
+
+#carac14{
+	font-family: "carac14";
+}
+
+/*  ----------- */
+
+
+@font-face{
+	font-family: "NikLaPolice";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/NikLaPolice.ttf");
+}
+
+#NikLaPolice{
+	font-family: "NikLaPolice";
+}
+
+/*  ----------- */
+
+
+@font-face{
+	font-family: "quinze";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/quinze.ttf");
+}
+
+#quinze{
+	font-family: "quinze";
+}
+
+/*  ----------- */
+
+
+@font-face{
+	font-family: "GlitchLaPolice";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/GlitchLaPolice.ttf");
+}
+
+#GlitchLaPolice{
+	font-family: "GlitchLaPolice";
+}
+
+/*  ----------- */
+
+@font-face{
+	font-family: "Vendredi";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/Vendredi.ttf");
+}
+
+#Vendredi{
+	font-family: "Vendredi";
+}
+
+/*  ----------- */
+
+@font-face{
+	font-family: "Trois";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/Trois.ttf");
+}
+
+#Trois{
+	font-family: "Trois";
+}
+
+/*  ----------- */
+
+
+@font-face{
+	font-family: "Dix";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/Dix.ttf");
+}
+
+#Dix{
+	font-family: "Dix";
+}
+
+/*  ----------- */
+
+@font-face{
+	font-family: "Onze";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/Onze.ttf");
+}
+
+#Onze{
+	font-family: "Onze";
+}
+
+/*  ----------- */
+
+
+@font-face{
+	font-family: "Vingt";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/Vingt.ttf");
+}
+
+#Vingt{
+	font-family: "Vingt";
+}
+
+
+/*  ----------- */
+
+
+@font-face{
+	font-family: "VingtEtUn";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/VingtEtUn.ttf");
+}
+
+#Onze{
+	font-family: "VingtEtUn";
+}
+
+/*  ----------- */
+
+
+
+@font-face{
+	font-family: "VingtDeux";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/VingtDeux.ttf");
+}
+
+#VingtDeux{
+	font-family: "VingtDeux";
+}
+
+
+/*  ----------- */
+
+
+@font-face{
+	font-family: "VingtTrois";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/VingtTrois.ttf");
+}
+
+#VingtTrois{
+	font-family: "VingtTrois";
+}
+
+
+/*  ----------- */
+
+
+@font-face{
+	font-family: "VingtQuatre";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/VingtQuatre.ttf");
+}
+
+#VingtQuatre{
+	font-family: "VingtQuatre";
+}
+
+
+/*  ----------- */
+
+
+@font-face{
+	font-family: "Seize";
+	font-weight: normal;
+	font-style: normal;
+	src:  url("Fonts/Seize.ttf");
+}
+
+#Seize{
+	font-family: "Seize";
+}
+
+
+
+
+/* ----------- BODY ----------- */
+
+body{
+	font-family: "LuxiReg";
+	white-space: wrap;	
+	word-wrap: break-word;	
+	display:block;	
+}
+
+.titreFonte{
+	font-family: "luxiReg";
+	font-size:12px;
+	position: fixed;
+	top: 5px;
+	width:10%;
+	right: 45%; 
+}
+
+.retour{
+	font-family: "luxiReg";
+	font-size:12px;
+	position: fixed;
+	top: 10px;
+	left: 10px; 
+}
+
+.telecharger{
+	font-family: "luxiReg";
+	font-size:12px;
+	position: fixed;
+	top: 10px;
+	right: 10px; 
+}
+
+.rotate{	
+	transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg); /* IE 9 */
+	-webkit-transform: rotate(-90deg); /* Opera, Chrome, and Safari */
+
+}
+
+.grand{
+	font-size:200px;
+	//line-height:50%;	
+}
+
+.specimen{
+	text-align:left;
+}
+
+.texte1{
+	margin-left: 30px;
+	font-size: 14px;
+	width:50%;	
+	float:left;
+	word-spacing: 1em;
+}
+
+.texte2{
+	margin-right: 90px;
+	font-size: 10px;
+	width:35%;
+	float:right;	
+	word-spacing: 1em;
+}
+
+.texte3{
+	margin-right: 7%;
+	margin-left: 0%;
+	font-size: 70px;
+	letter-spacing: -55px;
+	line-height:125%;
+	clear: both;
+}
+
+.indent{
+	margin-left:30px;
+}
+
+a{
+	text-decoration:none;
+	text-decoration:underline;
+	color:red;
+}
