@@ -3,7 +3,8 @@ fontKiller
 
 Destroy fonts and make ttf.<br/>
 Un projet de Lucas Lejeune & Étienne Ozeray.<br/>
-Licence GNU/GPL.<br/><br/>
+Licence GNU/GPL.<br/>
+Voir les specimens des fontes générés <a href="http://etienneozeray.fr/svg2ttf/specimens">http://etienneozeray.fr/svg2ttf/specimens</a><br/><br/>
 
 1 --> PureData permet de déformer la fonte (ici Terminus) à partir d'un flux vidéo.<br/>
 Voir les commentaires dans le fichier patch1.pd<br/>
