@@ -12,16 +12,16 @@ Lancer ensuite l'exportation de chaque lettre en format tiff<br/><br/>
 2 --> Préparation des fichier pour les convertir en ttf<br/>
 Utilisation du php pour créer un fichier svg font contenant chaque caractère qui est ensuite converti en ttf via l'api de <a href="http://onlinefontconverter.com/" target="_blank">Online Font Converter</a>.<br/>
 Le dossier de svg doit comporter, dans l'ordre, les lettres suivantes :<br/>
-	Capitales = 'A', 'À', 'Æ', 'B', 'C', 'D', 'E', 'É', 'È', 'Ê', 'Ë', 
+	Capitales --> 'A', 'À', 'Æ', 'B', 'C', 'D', 'E', 'É', 'È', 'Ê', 'Ë', 
 	'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'Ô', 
 	'Ö', 'Œ', 'P', 'Q', 'R', 'S', 'T', 'U', 'Ù', 'Û', 'Ü', 
 	'V', 'W', 'X', 'Y', 'Z' <br/>
-	 Bas-de-casse = 'a', 'à', 'æ', 'b', 'c', 'ç', 'd', 'e', 'é', 'è', 'ê', 
+	 Bas-de-casse --> 'a', 'à', 'æ', 'b', 'c', 'ç', 'd', 'e', 'é', 'è', 'ê', 
 	'ë', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 
 	'ô', 'ö', 'œ', 'p', 'q', 'r', 's', 't', 'u', 'ù', 'û', 
 	'ü', 'v', 'w', 'x', 'y', 'z' <br/>
-	 Chiffres = '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' <br/>
-	 Ponctuation = '-', ',', ';', '!', '?', '\'', '«', '»', '(', ')', '[', 
+	 Chiffres --> '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' <br/>
+	 Ponctuation --> '-', ',', ';', '!', '?', '\'', '«', '»', '(', ')', '[', 
 	']', '{', '}', '@', '*', '&', '#', '%', '+', '±', '=', 
 	'$', ':', '.', '/' <br/>
 Si une lettre est manquante, la remplacer par un svg dont l'attribut 'd' de la balise &lt;path&gt; est vide.
