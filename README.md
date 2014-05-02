@@ -23,7 +23,7 @@ Le dossier de svg doit comporter, dans l'ordre, les lettres suivantes :<br/>
 	'ü', 'v', 'w', 'x', 'y', 'z' <br/>
 	 Chiffres --> '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' <br/>
 	 Ponctuation --> '-', ',', ';', '!', '?', '\'', '«', '»', '(', ')', '[', 
-	']', '{', '}', '@', '\*', '&', '#', '%', '+', '±', '=', 
+	']', '{', '}', '@', '\*', '&amp;', '#', '%', '+', '±', '=', 
 	'$', ':', '.', '/' <br/>
 Si une lettre est manquante, la remplacer par un svg dont l'attribut 'd' de la balise &lt;path&gt; est vide.
 Chaque svg ne doit comporter qu'une balise  &lt;path&gt; comprenant un attribut 'd' contenant l'ensemble des points. Ils doivent aussi être inversés verticalement et renommés de 1.svg à 26.svg. Enfin, compresser dans un .zip l'ensemble des svg (pas le dossier).
