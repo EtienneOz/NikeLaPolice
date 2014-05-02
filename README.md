@@ -1,5 +1,5 @@
-fontKiller
-==========
+NikeLaPolice
+============
 
 Destroy fonts and make ttf.<br/>
 Un projet de Lucas Lejeune & Étienne Ozeray.<br/>
