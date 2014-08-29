@@ -79,7 +79,7 @@ To do :
 
 ## Specimen
 
-![specimen](https://github.com/EtienneOz/NikeLaPolice/Specimens/specimen.jpg)
+![specimen](https://github.com/EtienneOz/NikeLaPolice/blob/master/Specimens/specimen.jpg)
 
 
 ## License
