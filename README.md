@@ -3,8 +3,7 @@ NikeLaPolice
 
 Destroy fonts and make ttf.<br/>
 Un projet de Lucas Lejeune & Étienne Ozeray.<br/>
-Licence GNU/GPL.<br/>
-Voir les specimens des fontes générés <a href="http://etienneozeray.fr/svg2ttf/specimens">http://etienneozeray.fr/svg2ttf/specimens</a><br/><br/>
+Voir les specimens des fontes générées : [http://etienneozeray.fr/svg2ttf/specimens](http://etienneozeray.fr/svg2ttf/specimens)
 
 1 --> PureData permet de déformer la fonte (ici Terminus) à partir d'un flux vidéo.<br/>
 Voir les commentaires dans le fichier patch1.pd<br/>
@@ -84,4 +83,5 @@ To do :
 
 ## License
 
-NikeLaPolice is under [The Artistic License 2.0](https://github.com/EtienneOz/NikeLaPolice/blob/master/LICENSE)
+NikeLaPolice is under [The Artistic License 2.0](https://github.com/EtienneOz/NikeLaPolice/blob/master/LICENSE) for the whole project.
+The tool SVG2TTF is under [GNU GPL V3 License](https://github.com/EtienneOz/SvgToTtf/blob/master/LICENSE). [Here](https://github.com/EtienneOz/SvgToTtf/tree/master) is his own Git.
