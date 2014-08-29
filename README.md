@@ -76,3 +76,8 @@ To do :
 • Prendre en charge les autres formats de compression ;<br/>
 • Prendre en charge les alphabets incomplets ;<br/>
 • Prendre en charge les fontes à chasse variable ;<br/>
+
+
+## License
+
+NikeLaPolice is under [The Artistic License 2.0](https://github.com/EtienneOz/NikeLaPolice/blob/master/LICENSE)
