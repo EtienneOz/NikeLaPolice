@@ -77,6 +77,10 @@ To do :
 • Prendre en charge les alphabets incomplets ;<br/>
 • Prendre en charge les fontes à chasse variable ;<br/>
 
+## Specimen
+
+![specimen](https://github.com/EtienneOz/NikeLaPolice/Specimens/specimen.jpg)
+
 
 ## License
 
